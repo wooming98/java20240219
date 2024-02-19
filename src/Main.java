@@ -3,7 +3,7 @@ public class Main {
 
         System.out.println("Hello and welcome!");
 
-        System.out.println("123");
+        System.out.println("안녕하세여");
 
     }
 }
