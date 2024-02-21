@@ -8,6 +8,10 @@ public class C20Conversion {
         short c = a;
         long d = a;
 
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+
         short e = 1241;
         int f = e;
         long g = e;
@@ -27,7 +31,5 @@ public class C20Conversion {
         long p = 1234;
         float q = p;
         double r = p;
-
-
     }
 }
