@@ -1,28 +1,14 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class test {
     public static void main(String[] args) {
 
-        String[][] arr = {{"programmer02", "111111"}, {"programmer00", "134"}, {"programmer01", "1145"}};
-        for(int i=0; i<arr.length; i++) {
-            System.out.println(arr[i][1]);
-        }
-    }
-}
-
-
-class Solution {
-    public String solution(String[] id_pw, String[][] db) {
-
-        for(int i=0; i<db.length; i++) {
-            if(db[i][0].equals(id_pw[0])) {
-                if(db[i][1].equals(id_pw[1])) {
-                    return "login";
-                }
-                return "wrong pw";
-
-            }
-        }
-        return "fail";
+        int a = 0;
+        double sale = 0;
+        System.out.println("a = " + a);
+        System.out.println("sale = " + sale);
+        int b = (int)sale;
+        System.out.println("b = " + b);
     }
 }
