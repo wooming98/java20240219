@@ -4,11 +4,12 @@ import java.util.Scanner;
 public class test {
     public static void main(String[] args) {
 
-        int a = 0;
-        double sale = 0;
-        System.out.println("a = " + a);
-        System.out.println("sale = " + sale);
-        int b = (int)sale;
-        System.out.println("b = " + b);
+
+        for(int i=1; i<=5; i++) {
+            for(int j=0; j<i; j++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
     }
 }
