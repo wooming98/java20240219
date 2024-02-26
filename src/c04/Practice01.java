@@ -5,6 +5,7 @@ public class Practice01 {
 
         int a = 0;
         int b = 0;
+
         do {
             a = (int) (Math.random() * 6) + 1;
             b = (int) (Math.random() * 6) + 1;
