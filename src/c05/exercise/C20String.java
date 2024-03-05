@@ -1,7 +1,8 @@
-import java.util.Arrays;
-import java.util.Scanner;
+package c05.exercise;
 
-public class test {
+import java.util.Arrays;
+
+public class C20String {
     public static void main(String[] args) {
 
     }
