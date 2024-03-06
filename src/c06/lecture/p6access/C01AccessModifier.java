@@ -14,4 +14,3 @@ public class C01AccessModifier {
 // 하나의 public class만 만들 수 있음
 //public class C01My {
 //} (x)
-
