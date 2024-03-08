@@ -2,7 +2,8 @@ package ch07.lecture.p5super;
 
 public class C01Super {
     public static void main(String[] args) {
-        
+        C01Child child = new C01Child();
+        child.method1();
     }
 
 }
