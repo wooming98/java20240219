@@ -1,13 +1,13 @@
-package ch07.lecture.exam.exam02;
+package ch08.exam.exam02;
 
 public class DriverExample {
     public static void main(String[] args) {
         Driver driver = new Driver();
 
         Bus bus = new Bus();
-        driver.drive(bus);
-
         Taxi taxi = new Taxi();
+
+        driver.drive(bus);
         driver.drive(taxi);
     }
 }
