@@ -1,7 +1,5 @@
 package ch08.lecture.p1interface;
 
-import ch07.lecture.exam.exam06.Animal;
-
 public class C02Interface {
     public static void main(String[] args) {
         C02Cat cat = new C02Cat();
